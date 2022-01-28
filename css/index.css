@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+}
+.mainContainer .LogoContainer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer .LogoContainer img {
+  width: 65%;
+}
+.mainContainer .ServiciosContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainContainer .ServiciosContainer .reverse {
+  flex-direction: row-reverse;
+}
+.mainContainer .ServiciosContainer .ItemServicio {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
+  font-size: xx-large;
+  font-weight: 500;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
+  font-weight: 300;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
+  width: 50%;
+  border: none;
+  background-color: #F28220;
+  padding: 5px;
+  border-radius: 3px;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a button {
+  border: none;
+  background-color: transparent;
+}
+.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
+  border-radius: 8px 8px 8px 8px;
+  width: 100%;
+}
+
+.PieContainer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: stretch;
+  background-color: #F28220;
+}
+.PieContainer .LogoPie {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PieContainer .LogoPie a {
+  display: flex;
+  justify-content: center;
+}
+.PieContainer .LogoPie a img {
+  width: 50%;
+}
+.PieContainer .ContactoContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 20px;
+}
+.PieContainer .ContactoContainer .contacto {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.PieContainer .ContactoContainer .contacto img {
+  margin-right: 8px;
+}
+.PieContainer .RedesContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.PieContainer .RedesContainer div:hover {
+  transform: scale(1.03);
+}
+
+/*# sourceMappingURL=index.css.map */

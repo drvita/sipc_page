@@ -1,0 +1,88 @@
+//------------Responsive Rules---------------------------//
+@media (max-width: 360px) {
+    .mainContainer{
+        height: auto;
+        flex-direction: column;
+        .LogoContainer{
+            width: 100%;
+            margin-top: 5%;
+            img{
+                width: 50%;
+            }
+        }
+        .ServiciosContainer{
+            width: 100%;
+            .ItemServicio{
+                width: 100%;
+                flex-direction: column;
+                margin-bottom: 15%;
+                .DescripcionItem{
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 10%;
+                    .TituloServicio{
+                        font-size: x-large;
+                        padding: 0% 0% 2% 0%;
+                    }
+
+                    .DescripciónServicio{
+                        font-size: smaller;
+                        padding: 0% 5% 3% 5%;
+                    }
+                    .BotonSm{
+                        padding: 5px;
+                    }
+                }
+                .ImagenServicio{
+                    width: 100%;
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .PieContainer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        .LogoPie{
+            width: 100%;
+            margin-bottom: 5%;
+            a{
+                img{
+                    width: 30%;
+                    margin-top: 10%;
+                }
+            }
+        }
+    
+        .ContactoContainer{
+            width: 100%;
+            align-items: center;
+            padding-left: 20px;
+            margin-top: 10%;
+            .contacto{
+                margin: 2% 0% 3% 0%; 
+            }
+    
+        }
+    
+        .RedesContainer{
+            width: 100%;
+            margin-top: 10%;
+            div{
+
+                margin: 2% 0% 3% 0%;
+            }
+        }
+    }
+
+  }

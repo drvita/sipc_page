@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@media (max-width: 360px) {
+  .mainContainer {
+    height: auto;
+    flex-direction: column;
+  }
+  .mainContainer .LogoContainer {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .mainContainer .LogoContainer img {
+    width: 50%;
+  }
+  .mainContainer .ServiciosContainer {
+    width: 100%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 15%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
+    font-size: x-large;
+    padding: 0% 0% 2% 0%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
+    font-size: smaller;
+    padding: 0% 5% 3% 5%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm {
+    padding: 5px;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
+    width: 100%;
+  }
+  .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
+    width: 50%;
+  }
+
+  .PieContainer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .PieContainer .LogoPie {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .PieContainer .LogoPie a img {
+    width: 30%;
+    margin-top: 10%;
+  }
+  .PieContainer .ContactoContainer {
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10%;
+  }
+  .PieContainer .ContactoContainer .contacto {
+    margin: 2% 0% 3% 0%;
+  }
+  .PieContainer .RedesContainer {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .PieContainer .RedesContainer div {
+    margin: 2% 0% 3% 0%;
+  }
+}
+
+/*# sourceMappingURL=indexResponsive.css.map */

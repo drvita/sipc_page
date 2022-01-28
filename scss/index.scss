@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.mainContainer{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+
+    .LogoContainer{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 65%;
+        }
+    }
+
+
+    .ServiciosContainer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .reverse{
+
+            flex-direction: row-reverse;
+        }
+        .ItemServicio{
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .DescripcionItem{
+                width: 40%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                text-align: center;
+                .TituloServicio{
+                    font-size: xx-large;
+                    font-weight: 500;
+                }
+                .DescripciónServicio{
+                    font-weight: 300;
+                }
+
+                a{
+                    width: 50%;
+                    border: none;
+                    background-color: #F28220; 
+                    padding: 5px;
+                    border-radius: 3px;
+                    button{
+                        border: none;
+                        background-color: transparent;
+                    }
+                }
+                .BotonSm:hover{
+                    cursor: pointer;
+                    transform: scale(1.02);
+                }
+            }
+            .ImagenServicio{
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                img{
+                    border-radius: 8px 8px 8px 8px;
+                    width: 100%;
+                    
+                }
+            }
+            
+        }
+    }
+}
+
+.PieContainer{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: stretch;
+    background-color: #F28220;
+
+    .LogoPie{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 50%;
+                
+            }
+        }
+    }
+
+    .ContactoContainer{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 20px;
+        .contacto{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 8px;
+            }
+        }
+
+    }
+
+    .RedesContainer{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        div:hover{
+           transform: scale(1.03);
+        }
+    }
+}
+
+
+
+
+
