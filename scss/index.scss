@@ -26,13 +26,13 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-
         .reverse{
 
             flex-direction: row-reverse;
         }
         .ItemServicio{
             width: 90%;
+            height: 40%;
             display: flex;
             justify-content: space-around;
             align-items: center;
