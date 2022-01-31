@@ -16,7 +16,11 @@
   justify-content: center;
   align-items: center;
 }
-.mainContainer .LogoContainer img {
+.mainContainer .LogoContainer a {
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .LogoContainer a img {
   width: 65%;
 }
 .mainContainer .ServiciosContainer {
@@ -53,7 +57,7 @@
   font-weight: 300;
 }
 .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
-  width: 50%;
+  width: 25%;
   border: none;
   background-color: #F28220;
   padding: 5px;
