@@ -58,6 +58,7 @@
                     p{
                         text-transform: capitalize;
                         font-weight: 200;
+                        margin-top: 5%;
                     }
                     img{
                         margin-top: 5%;
@@ -87,7 +88,15 @@
                     margin-right: 10px;
                 }
             }
+
+            .button:hover{
+                cursor: pointer;
+                transform: scale(1.02);
+                background-color: green;
+            }
         }
+
+        
 
 
     }
