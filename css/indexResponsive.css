@@ -1,76 +1,81 @@
 @charset "UTF-8";
 @media (max-width: 500px) {
-  .mainContainer {
+  body .mainContainer {
     height: auto;
     flex-direction: column;
   }
-  .mainContainer .LogoContainer {
+  body .mainContainer .LogoContainer {
     width: 100%;
     margin-top: 5%;
   }
-  .mainContainer .LogoContainer img {
+  body .mainContainer .LogoContainer img {
     width: 50%;
   }
-  .mainContainer .ServiciosContainer {
+  body .mainContainer .ServiciosContainer {
     width: 100%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio {
-    width: 100%;
+  body .mainContainer .ServiciosContainer .borderBottom {
+    padding-bottom: 5%;
+    border-bottom: 1px solid burlywood;
+  }
+  body .mainContainer .ServiciosContainer .ItemServicio {
+    width: 85%;
     flex-direction: column;
     margin-bottom: 15%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
+  body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
     width: 100%;
     height: auto;
     margin-bottom: 10%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
+  body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
     font-size: x-large;
     padding: 0% 0% 2% 0%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
+  body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
     font-size: smaller;
     padding: 0% 5% 3% 5%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm {
+  body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm {
     padding: 5px;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
+  body .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
     width: 100%;
   }
-  .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
+  body .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
     width: 50%;
   }
-
-  .PieContainer {
+  body .PieContainer {
     width: 100%;
     height: auto;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
-  .PieContainer .LogoPie {
+  body .PieContainer .LogoPie {
     width: 100%;
     margin-bottom: 5%;
   }
-  .PieContainer .LogoPie a img {
+  body .PieContainer .LogoPie a img {
     width: 30%;
     margin-top: 10%;
   }
-  .PieContainer .ContactoContainer {
+  body .PieContainer .ContactoContainer {
     width: 100%;
+    justify-content: center;
     align-items: center;
     padding-left: 20px;
     margin-top: 10%;
   }
-  .PieContainer .ContactoContainer .contacto {
-    margin: 2% 0% 3% 0%;
+  body .PieContainer .ContactoContainer .contacto {
+    margin: 5% 0% 5% 0%;
+    padding-left: 14%;
   }
-  .PieContainer .RedesContainer {
+  body .PieContainer .RedesContainer {
     width: 100%;
     margin-top: 10%;
   }
-  .PieContainer .RedesContainer div {
+  body .PieContainer .RedesContainer div {
     margin: 2% 0% 3% 0%;
   }
 }

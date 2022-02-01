@@ -5,42 +5,52 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.mainContainer {
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .mainContainer {
   width: 100%;
   height: 85vh;
   display: flex;
+  max-width: 1400px;
 }
-.mainContainer .LogoContainer {
+body .mainContainer .LogoContainer {
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mainContainer .LogoContainer a {
+body .mainContainer .LogoContainer a {
   display: flex;
   justify-content: center;
 }
-.mainContainer .LogoContainer a img {
+body .mainContainer .LogoContainer a img {
   width: 65%;
 }
-.mainContainer .ServiciosContainer {
+body .mainContainer .ServiciosContainer {
   width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.mainContainer .ServiciosContainer .reverse {
+body .mainContainer .ServiciosContainer .reverse {
   flex-direction: row-reverse;
 }
-.mainContainer .ServiciosContainer .ItemServicio {
-  width: 90%;
+body .mainContainer .ServiciosContainer .borderBottom {
+  border-bottom: 1px solid burlywood;
+}
+body .mainContainer .ServiciosContainer .ItemServicio {
+  width: 80%;
   height: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem {
   width: 40%;
   height: 80%;
   display: flex;
@@ -49,81 +59,80 @@
   align-items: center;
   text-align: center;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
   font-size: xx-large;
   font-weight: 500;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
   font-weight: 300;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
   width: 25%;
   border: none;
   background-color: #F28220;
   padding: 5px;
   border-radius: 3px;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a button {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a button {
   border: none;
   background-color: transparent;
 }
-.mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm:hover {
+body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm:hover {
   cursor: pointer;
   transform: scale(1.02);
 }
-.mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
-  width: 20%;
+body .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
+  width: 25%;
   display: flex;
   justify-content: center;
 }
-.mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
+body .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio img {
   border-radius: 8px 8px 8px 8px;
   width: 100%;
 }
-
-.PieContainer {
+body .PieContainer {
+  max-width: 1400px;
   width: 100%;
   height: 15vh;
   display: flex;
   justify-content: stretch;
-  background-color: #F28220;
 }
-.PieContainer .LogoPie {
+body .PieContainer .LogoPie {
   width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.PieContainer .LogoPie a {
+body .PieContainer .LogoPie a {
   display: flex;
   justify-content: center;
 }
-.PieContainer .LogoPie a img {
+body .PieContainer .LogoPie a img {
   width: 50%;
 }
-.PieContainer .ContactoContainer {
+body .PieContainer .ContactoContainer {
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding-left: 20px;
 }
-.PieContainer .ContactoContainer .contacto {
+body .PieContainer .ContactoContainer .contacto {
   width: 50%;
   display: flex;
   align-items: center;
 }
-.PieContainer .ContactoContainer .contacto img {
+body .PieContainer .ContactoContainer .contacto img {
   margin-right: 8px;
 }
-.PieContainer .RedesContainer {
+body .PieContainer .RedesContainer {
   width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.PieContainer .RedesContainer div:hover {
+body .PieContainer .RedesContainer div:hover {
   transform: scale(1.03);
 }
 
