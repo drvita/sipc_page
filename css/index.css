@@ -76,7 +76,7 @@ body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
   border-radius: 3px;
 }
 body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a button {
-  color: #e2ded9;
+  color: white;
   border: none;
   background-color: transparent;
   font-weight: bold;
@@ -86,7 +86,6 @@ body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm:
   transform: scale(1.02);
 }
 body .mainContainer .ServiciosContainer .ItemServicio .ImagenServicio {
-  width: 25%;
   display: flex;
   justify-content: center;
 }
