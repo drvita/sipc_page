@@ -3,6 +3,8 @@
   body .mainContainer {
     height: auto;
     flex-direction: column;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
   }
   body .mainContainer .LogoContainer {
     width: 100%;

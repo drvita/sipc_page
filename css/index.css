@@ -16,6 +16,8 @@ body .mainContainer {
   height: 85vh;
   display: flex;
   max-width: 1400px;
+  background-position: 50% 50%;
+  background-image: url(../img/background.png);
 }
 body .mainContainer .LogoContainer {
   width: 30%;
