@@ -59,17 +59,26 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-    
-            .LogoPie{
-                width: 100%;
-                margin-bottom: 5%;
-                a{
-                    img{
-                        width: 30%;
-                        margin-top: 10%;
+
+            .divPie{
+                margin-top: 5%;
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .LogoPie{
+                    width: 100%;
+                    margin-bottom: 5%;
+                    a{
+                        img{
+                            width: 50%;
+                            
+                        }
                     }
                 }
             }
+    
+            
         
             .ContactoContainer{
                 width: 100%;

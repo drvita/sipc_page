@@ -52,13 +52,19 @@
     justify-content: space-around;
     align-items: center;
   }
-  body .PieContainer .LogoPie {
+  body .PieContainer .divPie {
+    margin-top: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .PieContainer .divPie .LogoPie {
     width: 100%;
     margin-bottom: 5%;
   }
-  body .PieContainer .LogoPie a img {
-    width: 30%;
-    margin-top: 10%;
+  body .PieContainer .divPie .LogoPie a img {
+    width: 50%;
   }
   body .PieContainer .ContactoContainer {
     width: 100%;

@@ -67,15 +67,17 @@ body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .Descripc
   font-weight: 300;
 }
 body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a {
-  width: 25%;
+  width: 30%;
   border: none;
   background-color: #F28220;
   padding: 5px;
   border-radius: 3px;
 }
 body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem a button {
+  color: #e2ded9;
   border: none;
   background-color: transparent;
+  font-weight: bold;
 }
 body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm:hover {
   cursor: pointer;
@@ -97,17 +99,25 @@ body .PieContainer {
   display: flex;
   justify-content: stretch;
 }
-body .PieContainer .LogoPie {
+body .PieContainer .divPie {
   width: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .PieContainer .LogoPie a {
+body .PieContainer .divPie .LogoPie {
+  border-radius: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body .PieContainer .divPie .LogoPie a {
   display: flex;
   justify-content: center;
 }
-body .PieContainer .LogoPie a img {
+body .PieContainer .divPie .LogoPie a img {
   width: 50%;
 }
 body .PieContainer .ContactoContainer {
@@ -121,6 +131,9 @@ body .PieContainer .ContactoContainer .contacto {
   width: 50%;
   display: flex;
   align-items: center;
+}
+body .PieContainer .ContactoContainer .contacto p {
+  color: #e2ded9;
 }
 body .PieContainer .ContactoContainer .contacto img {
   margin-right: 8px;

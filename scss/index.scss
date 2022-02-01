@@ -69,14 +69,16 @@ body{
                     }
     
                     a{
-                        width: 25%;
+                        width: 30%;
                         border: none;
                         background-color: #F28220; 
                         padding: 5px;
                         border-radius: 3px;
                         button{
+                            color: #e2ded9;
                             border: none;
                             background-color: transparent;
+                            font-weight: bold;
                         }
                     }
                     .BotonSm:hover{
@@ -106,20 +108,29 @@ body{
         height: 15vh;
         display: flex;
         justify-content: stretch;
-        .LogoPie{
+        .divPie{
             width: 10%;
             display: flex;
             justify-content: center;
             align-items: center;
-            a{
+            .LogoPie{
+                border-radius: 30px;
+                width: 90%;
                 display: flex;
                 justify-content: center;
-                img{
-                    width: 50%;
-                    
+                align-items: center;
+                background-color: white;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 50%;
+                        
+                    }
                 }
             }
         }
+      
     
         .ContactoContainer{
             width: 30%;
@@ -131,6 +142,9 @@ body{
                 width: 50%;
                 display: flex;
                 align-items: center;
+                p{
+                    color: #e2ded9;
+                }
                 img{
                     margin-right: 8px;
                 }
