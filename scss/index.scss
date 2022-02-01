@@ -115,11 +115,13 @@ body{
             align-items: center;
             .LogoPie{
                 border-radius: 30px;
-                width: 90%;
+                width: 64px;
+                height: 64px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background-color: white;
+                border: 2px dotted gray;
                 a{
                     display: flex;
                     justify-content: center;
