@@ -1,35 +1,64 @@
 @media (max-width: 500px) {
-  .ServiciosContainer .main {
+  .mainContainer .ServiciosContainer .main {
     width: 100%;
     height: auto;
     justify-content: space-around;
-    padding: 0;
-    margin: 10% 0% 90% 0%;
   }
-  .ServiciosContainer .main .tarjetasContainer {
+  .mainContainer .ServiciosContainer .main .tituloContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer .quienesSomos {
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer .quienTexto {
+    font-weight: normal;
+    font-size: 1.4rem;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer .buscamosTexto {
+    width: 80%;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 5% 0% 10% 0%;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer p {
+    text-align: center;
+    margin-top: 1%;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer .titulo {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .mainContainer .ServiciosContainer .main .tituloContainer .tituloTexto {
+    font-weight: lighter;
+    font-size: 1.2rem;
+  }
+  .mainContainer .ServiciosContainer .main .tarjetasContainer {
     width: 100%;
     flex-direction: column;
   }
-  .ServiciosContainer .main .tarjetasContainer .tarjeta {
+  .mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta {
     width: 90%;
-    height: 700px;
-    margin: 15% 0% 7% 0%;
+    height: 300px;
+    margin-top: 3%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
   }
-  .ServiciosContainer .main .tarjetasContainer .tarjeta img {
-    margin: 5% 0% 5% 0%;
-  }
-  .ServiciosContainer .main .buttons {
+  .mainContainer .ServiciosContainer .main .buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100%;
   }
-  .ServiciosContainer .main .buttons button {
+  .mainContainer .ServiciosContainer .main .buttons a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +68,7 @@
     border-radius: 3px;
     background-color: #f29e54;
   }
-  .ServiciosContainer .main .buttons button img {
+  .mainContainer .ServiciosContainer .main .buttons a img {
     margin-right: 10px;
   }
 }

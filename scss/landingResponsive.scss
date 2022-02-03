@@ -1,58 +1,104 @@
 //------------Responsive Rules---------------------------//
 @media (max-width: 500px){
 
-    .ServiciosContainer{
 
-        .main{
-            width: 100%;
-            height: auto;
-            justify-content: space-around;
-            padding: 0;
-            margin: 10% 0% 90% 0%;
-           
-            .tarjetasContainer{
+    .mainContainer{
+
+        .ServiciosContainer{
+
+            .main{
                 width: 100%;
-                flex-direction: column;
-                .tarjeta{
-                    width: 90%;
-                    height: 700px;
-                    margin: 15% 0% 7% 0%;
+                height: auto;
+                justify-content: space-around;
+    
+                .tituloContainer{
                     display: flex;
-                    flex-direction: column-reverse;
+                    flex-direction: column;  
+                    justify-content: center;  
+                    align-items: center;
+                    margin-top: 10%;
+    
+                    .quienesSomos{
+                        font-weight: bolder;
+                        font-size: 3rem;
+                    }
+    
+                    .quienTexto{
+                        font-weight: normal;
+                        font-size: 1.4rem;
+                    }
+    
+                    .buscamosTexto{
+                        width: 80%;
+                        font-weight: lighter;
+                        text-align: justify;
+                        font-size: 1.2rem;
+                        margin:5% 0% 10% 0%;
+                    }
+    
+    
+                    p{
+                        text-align: center;
+                        margin-top: 1%;
+                    }      
+                    .titulo{
+                        font-size: 3rem;
+                        font-weight: 500;
+                    }
+    
+                    .tituloTexto{
+                        font-weight: lighter;
+                        font-size: 1.2rem;
+                    }
+                }
+        
+    
+    
+    
+                .tarjetasContainer{
+                    width: 100%;
+                    flex-direction: column;
+                    .tarjeta{
+                        width: 90%;
+                        height: 300px;
+                        margin-top: 3%;
+                        display: flex;
+                        flex-direction: column-reverse;
+                        justify-content: space-around;
+                        align-items: center;
+    
+                        
+                    }
+                }
+    
+    
+    
+                .buttons{
+                    display: flex;
+                    flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
-
-                    img{
-                        margin: 5% 0% 5% 0%;
+                    width: 100%;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 80%;
+                        padding: 1.2%;
+                        border: none;
+                        border-radius: 3px;
+                        background-color: #f29e54;
+                        img{
+                            margin-right: 10px;
+                        }
                     }
+    
                 }
+    
             }
-
-
-
-            .buttons{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                button{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 80%;
-                    padding: 1.2%;
-                    border: none;
-                    border-radius: 3px;
-                    background-color: #f29e54;
-                    img{
-                        margin-right: 10px;
-                    }
-                }
-
-            }
-
         }
     }
+
+    
     
 }
