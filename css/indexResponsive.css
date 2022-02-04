@@ -6,11 +6,12 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
-  body .mainContainer .LogoContainer {
+  body .mainContainer .LogoContainerIndex {
     width: 100%;
     margin-top: 5%;
+    margin: 5rem 0;
   }
-  body .mainContainer .LogoContainer img {
+  body .mainContainer .LogoContainerIndex img {
     width: 50%;
   }
   body .mainContainer .ServiciosContainer {

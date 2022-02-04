@@ -4,6 +4,35 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+
+
+
+body .mainContainer .LogoContainer {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  margin: 20rem 0;
+
+}
+body .mainContainer .LogoContainer a {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 10;
+}
+body .mainContainer .LogoContainer a img {
+  width: 60%;
+
+}
+
+
+
+
+
+
+
 ul {
   list-style: none;
 }
