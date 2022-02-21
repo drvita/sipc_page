@@ -11,9 +11,14 @@
                 width: 100%;
                 margin-top: 5%;
                 margin: 5rem 0;
-                img{
-                    width: 50%;
+                a{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 50%;
+                    }
                 }
+               
             }
             .ServiciosContainer{
                 width: 100%;
@@ -70,15 +75,13 @@
                 justify-content: center;
                 align-items: center;
                 .LogoPie{
-                    margin-bottom: 5%;
+                    margin-top: 5%;
                     border-radius: 30px;
-                    width: 64px;
+                    width: 150px;
                     height: 64px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: white;
-                    border: 2px dotted gray;
                     a{
                         img{
                             width: 60%;
