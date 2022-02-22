@@ -4,54 +4,16 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-
-
-
-body .mainContainer .LogoContainer {
-  width: 100%;
-  display: flex;
-  align-self: flex-start;
-  margin: 20rem 0;
-
-}
-body .mainContainer .LogoContainer a {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  left: 0;
-  right: 10;
-}
-body .mainContainer .LogoContainer a img {
-  width: 60%;
-
-}
-
-
-
-
-
-
-
-ul {
-  list-style: none;
-}
-li::before {
-  content: "•";
-  color: #f28220;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
 .mainContainer {
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .mainContainer .ServiciosContainer .main {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -61,69 +23,65 @@ li::before {
 .mainContainer .ServiciosContainer .main .tituloContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 0% 5% 0% 5%;
-  margin: 1rem 0% 0% 0%;
+  margin: 70% 0% 0% 0%;
 }
-.mainContainer .ServiciosContainer .main .tituloContainer .box {
-  width: 90%;
-}
-.mainContainer .ServiciosContainer .main .tituloContainer .subtitle {
-  font-weight: 500;
-  font-size: 2rem;
-  margin: 4rem 0 2rem 0;
-  width: 100%;
-  color: #f28220;
-}
-.mainContainer .ServiciosContainer .main .tituloContainer h5 {
-  font-weight: 400;
+.mainContainer .ServiciosContainer .main .tituloContainer .quienesSomos {
+  font-weight: bolder;
   font-size: 3rem;
-  margin: 4rem 0 2rem 0;
-  width: 100%;
-  color: #f28220;
-  text-align: center;
 }
-.mainContainer .ServiciosContainer .main .tituloContainer .texto {
-  font-weight: lighter;
+.mainContainer .ServiciosContainer .main .tituloContainer .quienTexto {
+  font-weight: normal;
   font-size: 1.4rem;
+}
+.mainContainer .ServiciosContainer .main .tituloContainer .buscamosTexto {
+  width: 80%;
+  font-weight: lighter;
   text-align: justify;
-  margin: 1rem 0;
+  font-size: 1.2rem;
+  margin: 5% 0% 10% 0%;
 }
 .mainContainer .ServiciosContainer .main .tituloContainer p {
   text-align: center;
   margin-top: 1%;
 }
 .mainContainer .ServiciosContainer .main .tituloContainer .titulo {
-  font-size: 4rem;
-  font-weight: bold;
-  color: #ccc;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.mainContainer .ServiciosContainer .main .tituloContainer .tituloTexto {
+  font-weight: lighter;
+  font-size: 1.2rem;
 }
 .mainContainer .ServiciosContainer .main .tarjetasContainer {
   width: 90%;
+  height: 60%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta {
   width: 100%;
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
+  height: 80%;
+  margin: 4%;
+  padding: 3%;
+  text-align: center;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta h4 {
-  text-transform: capitalize;
-  margin: 1rem 0;
-  color: #f28220;
-}
-.mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta ul li {
-  text-align: justify;
-  padding: 2px 0;
+.mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta p {
+  font-weight: 200;
+  margin-top: 5%;
 }
 .mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta img {
   margin-top: 5%;
-  border-radius: 15px;
-  width: 100%;
+  border-radius: 5px;
+  width: 90%;
 }
 .mainContainer .ServiciosContainer .buttons {
   display: flex;
