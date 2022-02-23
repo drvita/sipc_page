@@ -4,135 +4,176 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-
-
-.mainContainer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    .ServiciosContainer{
-        .main{
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: stretch;
-            align-items: center;
-            padding: 7% 0% 0% 0%;
+body{
+    .mainContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     
-            .tituloContainer{
+        .LogoContainer{
+            width: 100%;
+            display: flex;
+            align-self: flex-start;
+            margin: 20rem 0;
+            a{
+                width: 25%;
                 display: flex;
-                flex-direction: column;  
-                justify-content: center;  
+                justify-content: center;
+                position: fixed;
+                left: 0;
+                right: 10;
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        .ServiciosContainer{
+            .main{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: stretch;
                 align-items: center;
-                padding: 0% 5% 0% 5%;
-                margin: 70% 0% 0% 0%;
-
-                .quienesSomos{
-                    font-weight: bolder;
-                    font-size: 3rem;
+                padding: 7% 0% 0% 0%;
+        
+                .tituloContainer{
+                    display: flex;
+                    flex-direction: column;  
+                    justify-content: space-evenly; 
+                    align-items: center;
+                    padding: 0% 5% 0% 5%;
+                    margin: 1rem 0% 0% 0%;
+    
+                    .box{
+                        width: 90%;
+                    }
+                    .subtitle {
+                        font-weight: 500;
+                        font-size: 2rem;
+                        margin: 4rem 0 2rem 0;
+                        width: 100%;
+                        color: #f28220;
+                      }
+    
+                      h5 {
+                        font-weight: 400;
+                        font-size: 3rem;
+                        margin: 4rem 0 2rem 0;
+                        width: 100%;
+                        color: #f28220;
+                        text-align: center;
+                      }
+    
+                      .texto {
+                        font-weight: lighter;
+                        font-size: 1.4rem;
+                        text-align: justify;
+                        margin: 1rem 0;
+                      }
+                    p{
+                        text-align: center;
+                        margin-top: 1%;
+                    }      
+                    .titulo{
+                        font-size: 4rem;
+                        font-weight: bold;
+                        color: #ccc;
+                    }
+    
+                    .tituloTexto{
+                        font-weight: lighter;
+                        font-size: 1.2rem;
+                    }
                 }
+        
+                .tarjetasContainer{
+                    width: 90%;
+                    height: 60%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                    .tarjeta{
+                        width: 100%;
+                        height: 80%;
+                        margin: 1%;
+                        text-align: center;
+                        border-radius: 5px;               
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        p{
+                            font-weight: 200;
+                            margin-top: 5%;
+                        }
+                        img{
+                            margin-top: 5%;
+                            border-radius: 15px;
+                            width: 100%;
+                        }
+                        h4 {
+                            margin: 1rem 0;
+                            color: #f28220;
+                          }
+    
+                        ul{
+                            li {
+                                text-align: justify;
+                                padding: 2px 0;
+                                list-style: none;
+                              }
 
-                .quienTexto{
-                    font-weight: normal;
-                    font-size: 1.4rem;
-                }
-
-                .buscamosTexto{
-                    width: 80%;
-                    font-weight: lighter;
-                    text-align: justify;
-                    font-size: 1.2rem;
-                    margin:5% 0% 10% 0%;
-                }
-
-
-                p{
-                    text-align: center;
-                    margin-top: 1%;
-                }      
-                .titulo{
-                    font-size: 3rem;
-                    font-weight: 500;
-                }
-
-                .tituloTexto{
-                    font-weight: lighter;
-                    font-size: 1.2rem;
+                              li::before {
+                                content: "•";
+                                color: #f28220;
+                                display: inline-block;
+                                width: 1em;
+                                margin-left: -1em;
+                              }
+                              
+                        }
+                    }
                 }
             }
     
-            .tarjetasContainer{
-                width: 90%;
-                height: 60%;
+            .buttons{
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
-                .tarjeta{
-                    width: 100%;
-                    height: 80%;
-                    margin: 4%;
-                    padding: 3%;
-                    text-align: center;
-                    border-radius: 5px;               
+                width: 100%;
+                height: 200px;
+                a{
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
                     align-items: center;
-                    p{
-                        text-transform: capitalize;
-                        font-weight: 200;
-                        margin-top: 5%;
-                    }
+                    justify-content: center;
+                    width: 20%;
+                    padding: 1%;
+                    border: none;
+                    border-radius: 3px;
+                    background-color: #f29e54;
+                    text-decoration: none;
+                    color: black;
                     img{
-                        margin-top: 5%;
-                        border-radius: 5px;
-                        width: 90%;
+                        margin-right: 10px;
                     }
                 }
-            }
-        }
-
-        .buttons{
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            a{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 20%;
-                padding: 1%;
-                border: none;
-                border-radius: 3px;
-                background-color: #f29e54;
-                text-decoration: none;
-                color: black;
-                img{
-                    margin-right: 10px;
-                }
-            }
-
-            a:hover{
-                cursor: pointer;
-                transform: scale(1.02);
-            }
-
-            
-        }
-
-        
-
-        
-
-
-    }
     
+                a:hover{
+                    cursor: pointer;
+                    transform: scale(1.02);
+                }
+    
+                
+            }
+        }
+        
+    }
 }
+
+
 
 
 
