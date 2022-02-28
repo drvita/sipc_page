@@ -1,53 +1,52 @@
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    .mainContainer{
+    .mainContainer {
         width: 100%;
         display: flex;
         max-width: 1400px;
         background-position: 50% 50%;
-        background-image: url(../img/background.png);
-        .LogoContainerIndex{
+        background-image: url("../img/background.png");
+        .LogoContainerIndex {
             width: 30%;
             display: flex;
             justify-content: center;
             align-items: center;
-            a{
+            a {
                 display: flex;
                 justify-content: center;
-                img{                
+                img {
                     width: 70%;
                 }
             }
-            
+
         }
-    
-    
-        .ServiciosContainer{
+
+        .ServiciosContainer {
             width: 70%;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-            .reverse{
-    
+            .reverse {
+
                 flex-direction: row-reverse;
             }
-    
-            .borderBottom{
+
+            .borderBottom {
                 border-bottom: 1px solid burlywood;
             }
-            .ItemServicio{
+            .ItemServicio {
                 width: 80%;
                 height: 40%;
                 display: flex;
@@ -55,7 +54,7 @@ body{
                 align-items: center;
                 margin: 3%;
                 padding: 3%;
-                .DescripcionItem{
+                .DescripcionItem {
                     width: 40%;
                     height: 100%;
                     display: flex;
@@ -63,114 +62,106 @@ body{
                     justify-content: space-evenly;
                     align-items: center;
                     text-align: center;
-                    .TituloServicio{
+                    .TituloServicio {
                         font-size: xx-large;
                         font-weight: 500;
                     }
-                    .DescripciónServicio{
+                    .DescripciónServicio {
                         font-weight: 300;
                     }
-    
-                    a{
+
+                    a {
                         width: 30%;
                         border: none;
-                        background-color: #F28220; 
+                        background-color: #F28220;
                         padding: 8px;
                         border-radius: 10px;
                         text-decoration: none;
                         color: white;
-                        button{
+                        button {
                             color: white;
                             border: none;
                             background-color: transparent;
                             font-weight: bold;
                         }
                     }
-                    .BotonSm:hover{
+                    .BotonSm:hover {
                         cursor: pointer;
                         transform: scale(1.02);
                     }
                 }
-                .ImagenServicio{
+                .ImagenServicio {
                     display: flex;
                     justify-content: center;
-                    img{
+                    img {
                         border-radius: 8px 8px 8px 8px;
                         width: 100%;
-                        
+
                     }
                 }
-                
+
             }
         }
     }
-    
-    
-    .PieContainer{
+
+    .PieContainer {
         max-width: 1400px;
         width: 100%;
         display: flex;
         justify-content: stretch;
-        padding: 2% 0% 2% 0%;
-        .divPie{
+        padding: 2% 0;
+        .divPie {
             width: 10%;
             display: flex;
             justify-content: center;
             align-items: center;
-            .LogoPie{
+            .LogoPie {
                 border-radius: 30px;
                 width: px;
                 height: 64px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                a{
+                a {
                     display: flex;
                     justify-content: center;
-                    img{
+                    img {
                         width: 50%;
                     }
                 }
             }
         }
-      
-    
-        .ContactoContainer{
+
+        .ContactoContainer {
             width: 30%;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             padding-left: 20px;
-            .contacto{
+            .contacto {
                 width: 50%;
                 display: flex;
                 align-items: center;
-                p{
+                margin: 3% 0;
+                p {
                     color: white;
                 }
-                img{
+                img {
                     margin-right: 8px;
                 }
             }
-    
         }
-    
-        .RedesContainer{
+
+        .RedesContainer {
             width: 20%;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
-    
-            div:hover{
-               transform: scale(1.03);
+            div:hover {
+                transform: scale(1.03);
             }
         }
     }
-    
-    
-    
-    
-    
-    
+
 }

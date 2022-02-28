@@ -1,80 +1,76 @@
 //------------Responsive Rules---------------------------//
 @media (max-width: 500px) {
 
-    body{
-        .mainContainer{
+    body {
+        .mainContainer {
             height: auto;
             flex-direction: column;
             background-position: 50% 50%;
             background-repeat: no-repeat;
-            .LogoContainerIndex{
+            .LogoContainerIndex {
                 width: 100%;
-                margin-top: 5%;
                 margin: 5rem 0;
-                a{
+                a {
                     display: flex;
                     justify-content: center;
-                    img{
+                    img {
                         width: 50%;
                     }
                 }
-               
+
             }
-            .ServiciosContainer{
+            .ServiciosContainer {
                 width: 100%;
 
-                .borderBottom{
+                .borderBottom {
                     padding-bottom: 5%;
                     border-bottom: 1px solid burlywood;
                 }
-                .ItemServicio{
+                .ItemServicio {
                     width: 85%;
                     flex-direction: column;
                     margin-bottom: 15%;
-                    .DescripcionItem{
+                    .DescripcionItem {
                         width: 100%;
                         height: auto;
                         margin-bottom: 10%;
-                        .TituloServicio{
+                        .TituloServicio {
                             font-size: x-large;
-                            padding: 0% 0% 2% 0%;
+                            padding: 0 0 2%;
                         }
-    
-                        .DescripciónServicio{
+
+                        .DescripciónServicio {
                             font-size: smaller;
-                            padding: 0% 5% 3% 5%;
+                            padding: 0 5% 3%;
                         }
-                        .BotonSm{
+                        .BotonSm {
                             padding: 5px;
                         }
                     }
-                    .ImagenServicio{
+                    .ImagenServicio {
                         width: 100%;
-                        img{
+                        img {
                             width: 50%;
                         }
                     }
                 }
             }
         }
-    
-    
-    
-    
-        .PieContainer{
+
+        .PieContainer {
             width: 100%;
             height: auto;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
 
-            .divPie{
+            .divPie {
                 margin-top: 5%;
                 width: 30%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .LogoPie{
+                .LogoPie {
                     margin-top: 5%;
                     border-radius: 30px;
                     width: 150px;
@@ -82,38 +78,37 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    a{
-                        img{
+                    a {
+                        img {
                             width: 60%;
-                            
+
                         }
                     }
                 }
-            }    
-        
-            .ContactoContainer{
+            }
+
+            .ContactoContainer {
                 width: 100%;
                 justify-content: center;
                 align-items: center;
                 padding-left: 20px;
                 margin-top: 10%;
-                .contacto{
-                    margin: 5% 0% 5% 0%;
-                    padding-left: 14%; 
+                .contacto {
+                    margin: 5% 0;
+                    padding-left: 14%;
                 }
-        
+
             }
-        
-            .RedesContainer{
+
+            .RedesContainer {
                 width: 100%;
                 margin-top: 10%;
-                div{
-    
-                    margin: 2% 0% 3% 0%;
+                div {
+
+                    margin: 2% 0 3%;
                 }
             }
         }
     }
-    
 
-  }
+}

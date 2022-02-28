@@ -1,60 +1,57 @@
 //------------Responsive Rules---------------------------//
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
-    body{
-        .mainContainer{
+    body {
+        .mainContainer {
 
             .LogoContainer {
                 width: 100%;
                 display: flex;
                 align-self: flex-start;
-                margin:3rem 0;
+                margin: 3rem 0;
                 a {
                     width: 100%;
                     position: relative;
                     img {
                         width: 60%;
-                      }
-                  }
-              }
+                    }
+                }
+            }
 
-            .ServiciosContainer{
-    
-                .main{
+            .ServiciosContainer {
+
+                .main {
                     width: 100%;
                     height: auto;
                     justify-content: space-around;
-        
-                    .tituloContainer{
+
+                    .tituloContainer {
                         display: flex;
-                        flex-direction: column;  
-                        justify-content: center;  
+                        flex-direction: column;
+                        justify-content: center;
                         align-items: center;
-                        margin-top: 0%;
-                        p{
+                        margin-top: 0;
+                        p {
                             text-align: center;
                             margin-top: 1%;
-                        }      
-                        .titulo{
+                        }
+                        .titulo {
                             font-size: 3rem;
                             font-weight: 500;
                             text-align: center;
                         }
-        
-                        .tituloTexto{
+
+                        .tituloTexto {
                             font-weight: lighter;
                             font-size: 1.2rem;
                         }
                     }
-            
-        
-        
-        
-                    .tarjetasContainer{
+
+                    .tarjetasContainer {
                         width: 100%;
                         flex-direction: column;
                         align-items: center;
-                        .tarjeta{
+                        .tarjeta {
                             width: 90%;
                             height: 500px;
                             margin-top: 10%;
@@ -62,39 +59,37 @@
                             flex-direction: column;
                             justify-content: space-evenly;
                             align-items: center;
-                            img{
+                            img {
                                 width: 85%;
                             }
 
-                            ul{
-                                padding: 0% 2% 0% 2%;
+                            ul {
+                                padding: 0 2%;
                                 li {
                                     text-align: justify;
                                     padding: 2px 0;
                                     list-style: none;
-                                  }
-    
-                                  li::before {
+                                }
+
+                                li::before {
                                     content: "•";
                                     color: #f28220;
                                     display: inline-block;
                                     width: 1em;
                                     margin-left: -1em;
-                                  }
-                                  
+                                }
+
                             }
                         }
                     }
-        
-        
-        
-                    .buttons{
+
+                    .buttons {
                         display: flex;
                         flex-direction: column;
                         justify-content: space-around;
                         align-items: center;
                         width: 100%;
-                        a{
+                        a {
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -103,16 +98,16 @@
                             border: none;
                             border-radius: 3px;
                             background-color: #f29e54;
-                            img{
+                            img {
                                 margin-right: 10px;
                             }
                         }
-        
+
                     }
-        
+
                 }
             }
         }
     }
-    
+
 }

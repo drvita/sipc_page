@@ -16,7 +16,7 @@ body .mainContainer {
   display: flex;
   max-width: 1400px;
   background-position: 50% 50%;
-  background-image: url(../img/background.png);
+  background-image: url("../img/background.png");
 }
 body .mainContainer .LogoContainerIndex {
   width: 30%;
@@ -101,7 +101,7 @@ body .PieContainer {
   width: 100%;
   display: flex;
   justify-content: stretch;
-  padding: 2% 0% 2% 0%;
+  padding: 2% 0;
 }
 body .PieContainer .divPie {
   width: 10%;
@@ -135,6 +135,7 @@ body .PieContainer .ContactoContainer .contacto {
   width: 50%;
   display: flex;
   align-items: center;
+  margin: 3% 0;
 }
 body .PieContainer .ContactoContainer .contacto p {
   color: white;

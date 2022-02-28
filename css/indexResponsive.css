@@ -8,7 +8,6 @@
   }
   body .mainContainer .LogoContainerIndex {
     width: 100%;
-    margin-top: 5%;
     margin: 5rem 0;
   }
   body .mainContainer .LogoContainerIndex a {
@@ -37,11 +36,11 @@
   }
   body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .TituloServicio {
     font-size: x-large;
-    padding: 0% 0% 2% 0%;
+    padding: 0 0 2%;
   }
   body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .DescripciónServicio {
     font-size: smaller;
-    padding: 0% 5% 3% 5%;
+    padding: 0 5% 3%;
   }
   body .mainContainer .ServiciosContainer .ItemServicio .DescripcionItem .BotonSm {
     padding: 5px;
@@ -86,7 +85,7 @@
     margin-top: 10%;
   }
   body .PieContainer .ContactoContainer .contacto {
-    margin: 5% 0% 5% 0%;
+    margin: 5% 0;
     padding-left: 14%;
   }
   body .PieContainer .RedesContainer {
@@ -94,7 +93,7 @@
     margin-top: 10%;
   }
   body .PieContainer .RedesContainer div {
-    margin: 2% 0% 3% 0%;
+    margin: 2% 0 3%;
   }
 }
 
