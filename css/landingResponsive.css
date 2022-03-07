@@ -43,6 +43,10 @@
     flex-direction: column;
     align-items: center;
   }
+  body .mainContainer .ServiciosContainer .main .tarjetasContainer .tarjetaOne {
+    width: 90%;
+    text-align: center;
+  }
   body .mainContainer .ServiciosContainer .main .tarjetasContainer .tarjeta {
     width: 90%;
     height: 500px;

@@ -51,6 +51,13 @@
                         width: 100%;
                         flex-direction: column;
                         align-items: center;
+
+                        .tarjetaOne{
+                            width: 90%;
+                            text-align: center;                       
+                        }
+
+
                         .tarjeta {
                             width: 90%;
                             height: 500px;
